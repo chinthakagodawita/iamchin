@@ -10,4 +10,4 @@ RUN ln -sfv /dev/stdout /var/log/nginx/access.log
 RUN ln -sfv /dev/stderr /var/log/nginx/error.log
 
 # Copy content in.
-COPY . /usr/share/nginx/html/index.html
+COPY . /usr/share/nginx/html
