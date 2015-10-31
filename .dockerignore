@@ -2,3 +2,4 @@ Dockerfile
 .dockerignore
 LICENSE
 _scripts/
+.git/
